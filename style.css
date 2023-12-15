@@ -10,7 +10,7 @@
   
 body {
     position: relative;
-    background-color: #f8f9fa;
+    background-color: #fcfffb;
     color: #232323;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
@@ -19,13 +19,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: 
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(2) rotate(45)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 96%, 0)'/><path d='M20-5V5m0 30v10m20-30v10M0 15v10'  stroke-linecap='round' stroke-width='0.7' stroke='hsla(163, 41%, 52%, 0.11)' fill='none'/><path d='M-5 40H5M-5 0H5m30 0h10M35 40h10M15 20h10'  stroke-linecap='round' stroke-width='0.5' stroke='hsla(345, 6%, 13%, 0.15)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
     min-height: 10ovh;
     width: 100%;
 }
 
 .nav-1 {
-    background-color: #52b69a;
+    background-color: #52b69a00;
     height: 30px;
     width: 100%;
     margin: 0;
@@ -34,7 +34,7 @@ body {
 }
 
 .nav-2 {
-    background-color: #52b69a;
+    background-color: #fcfffb;
     height: 30px;
     width: 100%;
     margin: 0;
@@ -79,7 +79,7 @@ p {
 
 p a {
     text-decoration: none;
-    color: #f8f5f2d8;
+    color: #52b69a;
 }
 
 .field {
@@ -118,6 +118,8 @@ p a {
     font-weight: 700;
     cursor: pointer;
     padding: 12px 16px;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
 }
 
 .shorten:hover {
@@ -133,7 +135,7 @@ p a {
 }
 
 #output {
-    width: 500px;
+    width: 360px;
     height: 50px;
     padding-left: 50px;
     border: 3px solid #232323;
@@ -154,6 +156,8 @@ p a {
     font-weight: 700;
     padding: 12px 16px;
     cursor: pointer;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
 }
 
 #copy:hover {
@@ -233,7 +237,7 @@ button {
  @media only screen and (max-width: 600px) {
 
     .nav-1 {
-        background-color: #F45D48;
+        background-color: #52b69a;
         height: 20px;
         width: 100%;
         margin: 0;
@@ -242,7 +246,7 @@ button {
     }
     
     .nav-2 {
-        background-color: #F45D48;
+        background-color: #52b69a;
         height: 20px;
         width: 100%;
         position: fixed;
@@ -304,7 +308,7 @@ button {
     @media only screen and (max-width: 480px) {
 
         .nav-1 {
-            background-color: #F45D48;
+            background-color: #52b69a;
             height: 20px;
             width: 100%;
             margin: 0;
@@ -313,7 +317,7 @@ button {
         }
         
         .nav-2 {
-            background-color: #F45D48;
+            background-color: #52b69a;
             height: 20px;
             width: 100%;
             position: fixed;
@@ -398,7 +402,7 @@ button {
         @media only screen and (max-width: 375px) {
 
             .nav-1 {
-                background-color: #F45D48;
+                background-color: #52b69a;
                 height: 20px;
                 width: 100%;
                 margin: 0;
@@ -407,7 +411,7 @@ button {
             }
             
             .nav-2 {
-                background-color: #F45D48;
+                background-color: #52b69a;
                 height: 20px;
                 width: 100%;
                 position: fixed;
